@@ -1,39 +1,64 @@
 <!-- ALbums that like -->
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Albums</title> 
-  <link rel="stylesheet" href="_css/myStyle.css">
-</head>
-
-<body>
- <font size="30">Albums</font>
-  <div>
-    <ol>
-      <li>Sweetener</li> 
-      <img src="..\Images\sweetener2.PNG" width="300"; height="300">
-      <li>Square Up (The Mini Album)</li>
-      <img src="..\Images\squareup.PNG" width="300"; height="300">
-      <li>Thank U, Next</li>
-      <img src="..\Images\thankunext.PNG" width="300"; height="300">
-      <li>2</li>
-      <img src="..\Images\2.PNG" width="300"; height="300">
-      <li>Dangerous Woman</li>
-      <img src="..\Images\dangerouswoman.PNG" width="300"; height="300">
-      <li>Salad Days</li>
-      <img src="..\Images\saladdays.PNG" width="300"; height="300">
-      <li>Kill This Love (The Mini Album)</li>
-      <img src="..\Images\killthislove.PNG" width="300"; height="300">
-      <li>Soy Pablo</li>
-      <img src="..\Images\soypablo.PNG" width="300"; height="300">
-      <li>reputation</li>
-      <img src="..\Images\reputation.PNG" width="300"; height="300">
-      <li>Was It Even Real?</li>
-      <img src="..\Images\WIER.png" width="300"; height="300">
-    </ol>
-  </div>
-</body>
-
-</html>
+  <html>
+    <head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <font size="30"  style="font-family:Comic Sans MS">Albums!!!</font>
+    
+    <div class="row">
+      <div class="column">
+        <img src="..\Images\sweetener2.PNG" alt="Sweetener" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\squareup.PNG" alt="squareup" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\thankunext.PNG" alt="thankunext" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\2.PNG" alt="2" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\dangerouswoman.PNG" alt="dangerouswoman" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\saladdays.PNG" alt="saladdays" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\killthislove.PNG" alt="killthislove" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\soypablo.PNG" alt="soypablo" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\reputation.PNG" alt="reputation" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="..\Images\WIER.png" alt="WIER" style="width:100%">
+      </div>
+    </div>
+    
+    </body>
+    </html>
+    

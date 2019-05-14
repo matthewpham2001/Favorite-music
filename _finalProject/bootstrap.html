@@ -1,37 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
+<font size="30"  style="font-family:Comic Sans MS">Albums!!!</font>
+
+<div class="row">
+  <div class="column">
+    <img src="..\Images\sweetener2.PNG" alt="Sweetener" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\squareup.PNG" alt="squareup" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\thankunext.PNG" alt="thankunext" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\2.PNG" alt="2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\dangerouswoman.PNG" alt="dangerouswoman" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\saladdays.PNG" alt="saladdays" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\killthislove.PNG" alt="killthislove" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\soypablo.PNG" alt="soypablo" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\reputation.PNG" alt="reputation" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="..\Images\WIER.png" alt="WIER" style="width:100%">
   </div>
 </div>
 
